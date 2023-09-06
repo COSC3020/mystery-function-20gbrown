@@ -12,3 +12,5 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+Answer: The first thing this function does is check if the array length is 1, then it returns the first element, this means that this is the largest element. It then creates a varible that is a new array that includes the entire array minus the first element. If the new variable is greater than the first element, that new varible is returned, otherwise the first element of the array is returned. This function will return the greatest number in an array. 
